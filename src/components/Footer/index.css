@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 50px;
+  padding: 16px 24px;
+  font-size: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  flex-wrap: wrap;
+}
+
+.footer > .item {
+  margin-right: 16px;
+}

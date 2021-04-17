@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: black;
+}
+.mobile-screen {
+  display: none;
+}
+#root,
+.main-section {
+  height: 100%;
+  width: 100%;
+}
+
+.main-section {
+  background: url(https://images2.minutemediacdn.com/image/upload/c_crop,h_1191,w_2121,x_0,y_223/f_auto,q_auto,w_1100/v1555272928/shape/mentalfloss/50569-istock-486178472.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Input css - start */
+
+.input-container {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  border: 1px solid;
+  border-color: transparent;
+  border-bottom-color: black;
+}
+
+.input-container i {
+  width: 14px;
+  height: 14px;
+  margin-right: 8px;
+}
+
+input {
+  width: 100%;
+  outline: 0;
+  font-size: 14px;
+  height: 40px;
+  border: none;
+  background: transparent;
+}
+.input-md {
+  width: 120px;
+}
+/* Input css - end */
+
+/* Select css - start */
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.select-container .fa-chevron-down {
+  margin-left: 4px;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+
+select {
+  background: white;
+  border: 0;
+  font-size: 14px;
+  height: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.select-border-bottom {
+  border: 1px solid;
+  border-color: transparent;
+  border-bottom-color: black;
+}
+
+select:active {
+  outline: none;
+}
+
+/* Select css - end */
+
+/* Button css - start */
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button-md {
+  padding: 8px 20px;
+  font-size: 10px;
+  font-weight: 600;
+}
+.button-black-outline {
+  border: 1px solid black;
+  background: white;
+}
+
+.button-black-outline:hover {
+  border: 1px solid black;
+  background: black;
+  color: white;
+}
+
+/* Button css - end */
+
+/* Utils - start */
+.h-40 {
+  height: 40px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.fas {
+  height: 14px;
+}
+
+/* Utils - end */

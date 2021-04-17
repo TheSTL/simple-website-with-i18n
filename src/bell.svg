@@ -1,0 +1,35 @@
+<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="13.177"
+                height="14.439"
+                viewBox="0 0 13.177 14.439"
+              >
+                <g
+                  id="Icon_feather-bell"
+                  data-name="Icon feather-bell"
+                  transform="translate(-3.6 -2.1)"
+                >
+                  <path
+                    id="Path_166"
+                    data-name="Path 166"
+                    d="M13.981,6.792a3.792,3.792,0,0,0-7.585,0c0,4.424-1.9,5.689-1.9,5.689H15.877s-1.9-1.264-1.9-5.689"
+                    transform="translate(0 0)"
+                    fill="none"
+                    stroke="#000"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                  />
+                  <path
+                    id="Path_167"
+                    data-name="Path 167"
+                    d="M17.592,31.5a1.264,1.264,0,0,1-2.187,0"
+                    transform="translate(-6.31 -16.491)"
+                    fill="none"
+                    stroke="#000"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.8"
+                  />
+                </g>
+              </svg>

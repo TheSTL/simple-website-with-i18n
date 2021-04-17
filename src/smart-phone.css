@@ -1,0 +1,27 @@
+@media only screen and (max-width: 700px) {
+  .mobile-screen {
+    display: block !important;
+  }
+  .header {
+    padding: 20px !important;
+  }
+  .big-screen {
+    display: none !important;
+  }
+  .main-section {
+    height: 64%;
+  }
+  .sub-middle .main {
+    margin-bottom: 0 !important;
+  }
+  .footer {
+    flex-direction: column;
+    box-shadow: 2px 2px 3px 1px #888888;
+  }
+
+  .footer > .item {
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  
+}
